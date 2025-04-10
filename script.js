@@ -2408,6 +2408,90 @@ const wordFormationData = [
     gappedSentence: "The meeting was organised for information ______ before the report.",
     answer: "gathering",
     tags: "C1, nouns, gerunds"
+  },
+  {
+    base: "FINANCE",
+    gappedSentence: "The report highlighted several ______ risks to the global economy.",
+    answer: "financial",
+    tags: "B2, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "REFERENCE",
+    gappedSentence: "The study was purely ______ and not intended for practical use.",
+    answer: "referential",
+    tags: "C2, adjectives, suffix -ial, cial/tial, formal"
+  },
+  {
+    base: "BENEFIT",
+    gappedSentence: "The new law will have a ______ impact on low-income families.",
+    answer: "beneficial",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "ESSENCE",
+    gappedSentence: "It's ______ that children have access to healthy food.",
+    answer: "essential",
+    tags: "B2, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "SUBSTANCE",
+    gappedSentence: "The scientists collected ______ evidence to support their theory.",
+    answer: "substantial",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "PART",
+    gappedSentence: "He only has a ______ understanding of the situation.",
+    answer: "partial",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "CONFIDENT",
+    gappedSentence: "The file contains strictly ______ information and must not be shared.",
+    answer: "confidential",
+    tags: "B2, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "PART",
+    gappedSentence: "The judge is honest, and known for being completely ______ in all decisions.",
+    answer: "impartial",
+    tags: "C1, adjectives, suffix -ial, cial/tial, prefixes, negative"
+  },
+  {
+    base: "TORRENT",
+    gappedSentence: "The area suffered ______ rainfall throughout the month.",
+    answer: "torrential",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "CONSEQUENCE",
+    gappedSentence: "His protests were ________ and business went on as usual.",
+    answer: "inconsequential",
+    tags: "C2, adjectives, suffix -ial, cial/tial, negative, prefixes"
+  },
+  {
+    base: "SPACE",
+    gappedSentence: "The architecture of the city reflects its ______ organisation.",
+    answer: "spatial",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "PREJUDICE",
+    gappedSentence: "His remarks were deeply offensive and clearly ______.",
+    answer: "prejudicial",
+    tags: "C2, adjectives, suffix -ial, cial/tial, negative, formal"
+  },
+  {
+    base: "PROVINCE",
+    gappedSentence: "The liberals have won by massive margins in most ______ elections.",
+    answer: "provincial",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "SACRIFICE",
+    gappedSentence: "The ritual required the ______ killing of animals.",
+    answer: "sacrificial",
+    tags: "C1, adjectives, suffix -ial, cial/tial"
   }
 ];
 const game = new WordFormationGame(wordFormationData);
