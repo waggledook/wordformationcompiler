@@ -1119,7 +1119,7 @@ const wordFormationData = [
     base: "FORMAL",
     gappedSentence: "He spoke ______ at the opening ceremony.",
     answer: "formally",
-    tags: "B1, adverbs, regular"
+    tags: "B1, adverbs, regular, suffix -al"
   },
   {
     base: "EXPAND",
@@ -1711,7 +1711,7 @@ const wordFormationData = [
     base: "ORIGIN",
     gappedSentence: "The practice is believed to have ______ in ancient Persia.",
     answer: "originated",
-    tags: "B2, verbs, regular verbs"
+    tags: "C1, verbs, regular verbs, verb formation"
   },
   {
     base: "ADAPT",
@@ -1735,7 +1735,7 @@ const wordFormationData = [
     base: "COMPARE",
     gappedSentence: "A useful ______ was made between two different cases.",
     answer: "comparison",
-    tags: "B2, nouns, abstract nouns, irregular nouns"
+    tags: "C1, nouns, abstract nouns, irregular nouns"
   },
   {
     base: "FATAL",
@@ -1753,7 +1753,7 @@ const wordFormationData = [
     base: "OCCUR",
     gappedSentence: "There have been several ______ of this phenomenon in recent months.",
     answer: "occurrences",
-    tags: "B2, nouns, plural, abstract nouns, suffix -ence"
+    tags: "B2, nouns, plural, abstract nouns, suffix -ence, ence/ance"
   },
   {
     base: "PLEASE",
@@ -2492,6 +2492,282 @@ const wordFormationData = [
     gappedSentence: "The ritual required the ______ killing of animals.",
     answer: "sacrificial",
     tags: "C1, adjectives, suffix -ial, cial/tial"
+  },
+  {
+    base: "SATISFY",
+    gappedSentence: "Customer ______ is a key part of running a successful business.",
+    answer: "satisfaction",
+    tags: "B1, nouns, suffix -tion"
+  },
+  {
+    base: "SUCCESS",
+    gappedSentence: "The project turned out to be highly ______ despite the challenges.",
+    answer: "successful",
+    tags: "B2, adjectives, suffix -ful, ful/less"
+  },
+  {
+    base: "COVER",
+    gappedSentence: "They were surprised to ______ a new species in the forest.",
+    answer: "discover",
+    tags: "B2, verbs, prefixes, negative"
+  },
+  {
+    base: "SOLVE",
+    gappedSentence: "They finally found a ______ to the long-standing problem.",
+    answer: "solution",
+    tags: "B1, nouns, abstract, suffix -ion"
+  },
+  {
+    base: "IMPROVE",
+    gappedSentence: "There has been a clear ______ in his attitude over the last year.",
+    answer: "improvement",
+    tags: "B2, nouns, suffix -ment"
+  },
+  {
+    base: "SCIENCE",
+    gappedSentence: "Some ______ argue that climate change is reversible.",
+    answer: "scientists",
+    tags: "B2, nouns, people, plural, suffix -ist"
+  },
+  {
+    base: "PERFORM",
+    gappedSentence: "Her ______ impressed the judges.",
+    answer: "performance",
+    tags: "B1, nouns, suffix -ance, ence/ance"
+  },
+  {
+    base: "CERTAIN",
+    gappedSentence: "Although he is usually confident, he felt quite ______ in that situation.",
+    answer: "uncertain",
+    tags: "B1, adjectives, negative, prefixes"
+  },
+  {
+    base: "TRUE",
+    gappedSentence: "The witness was admired for their honesty and ______.",
+    answer: "truth",
+    tags: "B2, nouns, suffix -th, irregular nouns"
+  },
+  {
+    base: "RELATION",
+    gappedSentence: "Their close ______ made them work very well as a team.",
+    answer: "relationship",
+    tags: "B2, nouns, abstract nouns, suffix -ship"
+  },
+  {
+    base: "SUIT",
+    gappedSentence: "The dress was completely ______ for the formal event, so she had to change.",
+    answer: "unsuitable",
+    tags: "B2, adjectives, negative, prefixes, suffix -able, able/ible"
+  },
+  {
+    base: "ABSENT",
+    gappedSentence: "His sudden ______ shocked everyone in the office.",
+    answer: "absence",
+    tags: "B2, nouns, abstract nouns, suffix -ence, ence/ance"
+  },
+  {
+    base: "APPROPRIATE",
+    gappedSentence: "It is highly ______ to arrive late for an interview.",
+    answer: "inappropriate",
+    tags: "B2, adjectives, negative, prefixes, suffix -ate"
+  },
+  {
+    base: "FORTUNATE",
+    gappedSentence: "______, nobody was injured in the accident.",
+    answer: "Unfortunately",
+    tags: "B2, adverbs, negative, prefixes, comment adverbs"
+  },
+  {
+    base: "EASY",
+    gappedSentence: "The task was completed quickly and ______.",
+    answer: "easily",
+    tags: "B2, adverbs, manner"
+  },
+  {
+    base: "CREDIBLE",
+    gappedSentence: "His story was so strange it seemed almost ______.",
+    answer: "incredible",
+    tags: "B1, adjectives, negative, prefixes"
+  },
+  {
+    base: "DESCRIBE",
+    gappedSentence: "Could you give a brief ______ of the suspect?",
+    answer: "description",
+    tags: "B1, nouns, suffix -ion"
+  },
+  {
+    base: "IMPRESS",
+    gappedSentence: "His first ______ of the city left a lasting memory.",
+    answer: "impression",
+    tags: "B1, nouns, abstract nouns, suffix -ion"
+  },
+  {
+    base: "SURROUND",
+    gappedSentence: "The ______ villages are popular weekend destinations.",
+    answer: "surrounding",
+    tags: "C1, adjectives, present participles, participles"
+  },
+  {
+    base: "FAR",
+    gappedSentence: "The museum is located even ______ from the station than I thought.",
+    answer: "farther/further",
+    tags: "B2, adjectives, comparatives and superlatives, irregular adjectives"
+  },
+  {
+    base: "DIFFICULT",
+    gappedSentence: "She had no ______ in passing the driving test.",
+    answer: "difficulty",
+    tags: "B1, nouns, abstract nouns, suffix -y"
+  },
+  {
+    base: "BEGIN",
+    gappedSentence: "The course is perfect for complete ______.",
+    answer: "beginners",
+    tags: "B2, nouns, people, plural, suffix -er"
+  },
+  {
+    base: "DANGER",
+    gappedSentence: "The journey was long and often ______.",
+    answer: "dangerous",
+    tags: "B1, adjectives, suffix -ous"
+  },
+  {
+    base: "OBSERVE",
+    gappedSentence: "She's incredibly ______ and notices every small detail.",
+    answer: "observant",
+    tags: "B2, adjectives, suffix -ant"
+  },
+  {
+    base: "REFUTE",
+    gappedSentence: "They had to accept his version once he provided ______ evidence.",
+    answer: "irrefutable",
+    tags: "C1, adjectives, negative, prefixes, suffix -able, formal, ible/able"
+  },
+  {
+    base: "DECORATE",
+    gappedSentence: "The room was filled with colourful ______.",
+    answer: "decoration/decorations",
+    tags: "B1, nouns, suffix -ion"
+  },
+  {
+    base: "FOOL",
+    gappedSentence: "It was a rather ______ decision to invest all his money in that scheme.",
+    answer: "foolish",
+    tags: "B2, adjectives, suffix -ish, personality"
+  },
+  {
+    base: "NECESSARY",
+    gappedSentence: "That isn’t ______ true — it depends on the situation.",
+    answer: "necessarily",
+    tags: "B2, adverbs"
+  },
+  {
+    base: "FLASH",
+    gappedSentence: "His clothes were far too bright and ______ for the occasion.",
+    answer: "flashy",
+    tags: "C1, adjectives, suffix -y"
+  },
+  {
+    base: "APPRECIATE",
+    gappedSentence: "She was extremely ______ of all the support she received.",
+    answer: "appreciative",
+    tags: "C1, adjectives, suffix -ive, feelings"
+  },
+  {
+    base: "ADAPT",
+    gappedSentence: "She's very ______ and easily adjusts to new environments.",
+    answer: "adaptable",
+    tags: "B2, adjectives, suffix -able, personality, ible/able"
+  },
+  {
+    base: "DESCEND",
+    gappedSentence: "It's universally accepted that humans are ______ of primates.",
+    answer: "descendants",
+    tags: "C1, nouns, people, plural, suffix -ant"
+  },
+  {
+    base: "MOUNTAIN",
+    gappedSentence: "Such a climb should only be undertaken by experienced ______.",
+    answer: "mountaineers",
+    tags: "C1, nouns, people, plural, suffix -eer"
+  },
+  {
+    base: "ALTERNATE",
+    gappedSentence: "______, you could just tell her the truth.",
+    answer: "Alternatively",
+    tags: "C1, adverbs, suffix -ive"
+  },
+  {
+    base: "DANGER",
+    gappedSentence: "You're not just taking a risk — you're ______ other people's lives.",
+    answer: "endangering",
+    tags: "C1, verbs, present participle, prefixes"
+  },
+  {
+    base: "STAND",
+    gappedSentence: "His performance in the use of English was absolutely _____.",
+    answer: "outstanding",
+    tags: "C2, adjectives, prefixes, present participles, phrasal verbs"
+  },
+  {
+    base: "GO",
+    gappedSentence: "The company has _____ extraordinary changes since the new CEO was hired.",
+    answer: "undergone",
+    tags: "C2, verbs, irregular verbs, prefixes"
+  },
+  {
+    base: "PROGRESS",
+    gappedSentence: "Waiting lists for such operations have become ____ longer.",
+    answer: "progressively",
+    tags: "C1, adverbs, suffix -ive"
+  },
+  {
+    base: "PURSUE",
+    gappedSentence: "It's incredible the sacrifices people make in ____ of fame and riches.",
+    answer: "pursuit",
+    tags: "C2, nouns, abstract nouns, irregular nouns"
+  },
+  {
+    base: "CUSTOM",
+    gappedSentence: "It's ____ in Spain to stuff a stupid number of grapes into your mouth on New Year's Eve.",
+    answer: "customary",
+    tags: "C2, adjectives, suffix -ary"
+  },
+  {
+    base: "INTERRUPT",
+    gappedSentence: "It was a beautiful night — the first time Matilda enjoyed a full night of ____ sleep.",
+    answer: "uninterrupted",
+    tags: "C1, adjectives, negative, prefixes, past participles"
+  },
+  {
+    base: "SYMPTOM",
+    gappedSentence: "These tendencies are _____ of serious addiction.",
+    answer: "symptomatic",
+    tags: "C2, adjectives, suffix -ic"
+  },
+  {
+    base: "WISE",
+    gappedSentence: "A long life does not necessarily result in greater ____.",
+    answer: "wisdom",
+    tags: "C1, nouns, abstract nouns, irregular nouns"
+  },
+  {
+    base: "DETECT",
+    gappedSentence: "The sound is almost _____ to the human ear.",
+    answer: "undetectable/indetectable",
+    tags: "C1, adjectives, negative, prefixes, suffix -able, ible/able"
+  },
+  {
+    base: "ASSEMBLE",
+    gappedSentence: "The following tools may be necessary in the _____ of the furniture.",
+    answer: "assembly",
+    tags: "C1, nouns, abstract nouns, suffix -y"
+  },
+  {
+    base: "CARVE",
+    gappedSentence: "Several ancient _____ were discovered in the caves.",
+    answer: "carvings",
+    tags: "C2, nouns, plural, gerunds"
   }
 ];
 const game = new WordFormationGame(wordFormationData);
